@@ -1,0 +1,20 @@
+com/mindex/challenge/ChallengeApplicationTests.java
+ com.mindex.challenge.ChallengeApplicationTests
+com/mindex/challenge/controller/CompensationControllerTest.java
+ com.mindex.challenge.controller.CompensationControllerTest
+com/mindex/challenge/service/impl/ReportingStructureServiceImplTest.java
+ com.mindex.challenge.service.impl.ReportingStructureServiceImplTest
+com/mindex/challenge/DataBootstrapTest.java
+ com.mindex.challenge.DataBootstrapTest
+com/mindex/challenge/integration/ReportingStructureIntegrationTest.java
+ com.mindex.challenge.integration.ReportingStructureIntegrationTest
+com/mindex/challenge/service/impl/EmployeeServiceImplTest.java
+ com.mindex.challenge.service.impl.EmployeeServiceImplTest
+com/mindex/challenge/service/impl/EmployeeServiceImplTest2.java
+ com.mindex.challenge.service.impl.EmployeeServiceImplTest2
+com/mindex/challenge/controller/ReportingStructureControllerTest.java
+ com.mindex.challenge.controller.ReportingStructureControllerTest
+com/mindex/challenge/integration/CompensationIntegrationTest.java
+ com.mindex.challenge.integration.CompensationIntegrationTest
+com/mindex/challenge/service/impl/CompensationServiceImplTest.java
+ com.mindex.challenge.service.impl.CompensationServiceImplTest

@@ -22,17 +22,17 @@ import static org.junit.Assert.assertNotNull;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class EmployeeServiceImplTest {
 
-    private String employeeUrl;
-    private String employeeIdUrl;
+    protected String employeeUrl;
+    protected String employeeIdUrl;
 
     @Autowired
-    private EmployeeService employeeService;
+    protected EmployeeService employeeService;
 
     @LocalServerPort
-    private int port;
+    protected int port;
 
     @Autowired
-    private TestRestTemplate restTemplate;
+    protected TestRestTemplate restTemplate;
 
     @Before
     public void setup() {

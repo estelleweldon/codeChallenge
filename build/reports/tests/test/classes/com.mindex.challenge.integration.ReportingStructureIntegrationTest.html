@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.mindex.challenge.integration.ReportingStructureIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.mindex.challenge.integration.ReportingStructureIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.mindex.challenge.integration.html">com.mindex.challenge.integration</a> &gt; ReportingStructureIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.294s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBadCreateRequest_nullEmployee</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCreateReadUpdate</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRead_noReports</td>
+<td class="success">0.214s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRead_withReports</td>
+<td class="success">0.037s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2022-05-31 23:55:06.739  INFO 2522 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mindex.challenge.integration.ReportingStructureIntegrationTest], using SpringBootContextLoader
+2022-05-31 23:55:06.740  INFO 2522 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.mindex.challenge.integration.ReportingStructureIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-05-31 23:55:06.740  INFO 2522 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.mindex.challenge.integration.ReportingStructureIntegrationTest]: ReportingStructureIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-05-31 23:55:06.745  INFO 2522 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.mindex.challenge.ChallengeApplication for test class com.mindex.challenge.integration.ReportingStructureIntegrationTest
+2022-05-31 23:55:06.746  INFO 2522 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-05-31 23:55:06.746  INFO 2522 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7d665dc1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5f898b2e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4bdfae22, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@576ae36b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@182d2412, org.springframework.test.context.transaction.TransactionalTestExecutionListener@bee0cc2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3df61d23, org.springframework.test.context.event.EventPublishingTestExecutionListener@3d07c04d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4c7b7e4b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3788e31a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3a9affcd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@399c557b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2e82fd25]
+2022-05-31 23:55:06.836  INFO 2522 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-31 23:55:06.836  INFO 2522 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-31 23:55:06.853  INFO 2522 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2022-05-31 23:55:06.882 DEBUG 2522 --- [o-auto-1-exec-1] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@2840fdef]
+2022-05-31 23:55:06.882 DEBUG 2522 --- [o-auto-1-exec-1] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@2840fdef]
+2022-05-31 23:55:06.924 DEBUG 2522 --- [o-auto-1-exec-2] c.m.c.c.ReportingStructureController     : Received reporting structure request for [91aa6c2a-ce3c-4191-9836-dca1679c35d3]
+2022-05-31 23:55:06.924 DEBUG 2522 --- [o-auto-1-exec-2] c.m.c.s.i.ReportingStructureServiceImpl  : Getting reporting structure for employee [91aa6c2a-ce3c-4191-9836-dca1679c35d3]
+2022-05-31 23:55:06.924 DEBUG 2522 --- [o-auto-1-exec-2] c.m.c.service.impl.EmployeeServiceImpl   : Reading employee with id [91aa6c2a-ce3c-4191-9836-dca1679c35d3]
+2022-05-31 23:55:06.970 DEBUG 2522 --- [o-auto-1-exec-3] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@303c5d96]
+2022-05-31 23:55:06.970 DEBUG 2522 --- [o-auto-1-exec-3] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@303c5d96]
+2022-05-31 23:55:06.976 DEBUG 2522 --- [o-auto-1-exec-4] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@27f1b97f]
+2022-05-31 23:55:06.976 DEBUG 2522 --- [o-auto-1-exec-4] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@27f1b97f]
+2022-05-31 23:55:06.985 DEBUG 2522 --- [o-auto-1-exec-5] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@3eba2df1]
+2022-05-31 23:55:06.985 DEBUG 2522 --- [o-auto-1-exec-5] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@3eba2df1]
+2022-05-31 23:55:06.993 DEBUG 2522 --- [o-auto-1-exec-6] c.m.c.c.ReportingStructureController     : Received reporting structure request for [b564b0ce-7909-43ff-9952-009c4bf38a98]
+2022-05-31 23:55:06.994 DEBUG 2522 --- [o-auto-1-exec-6] c.m.c.s.i.ReportingStructureServiceImpl  : Getting reporting structure for employee [b564b0ce-7909-43ff-9952-009c4bf38a98]
+2022-05-31 23:55:06.994 DEBUG 2522 --- [o-auto-1-exec-6] c.m.c.service.impl.EmployeeServiceImpl   : Reading employee with id [b564b0ce-7909-43ff-9952-009c4bf38a98]
+2022-05-31 23:55:06.997 DEBUG 2522 --- [o-auto-1-exec-6] c.m.c.service.impl.EmployeeServiceImpl   : Reading employee with id [a47b417c-767a-45fb-9def-b32abc52bd25]
+2022-05-31 23:55:06.998 DEBUG 2522 --- [o-auto-1-exec-6] c.m.c.service.impl.EmployeeServiceImpl   : Reading employee with id [a8264aeb-fd23-487e-8828-97cebf886517]
+2022-05-31 23:55:07.006 DEBUG 2522 --- [o-auto-1-exec-7] c.m.c.c.ReportingStructureController     : Received reporting structure request for [123]
+2022-05-31 23:55:07.006 DEBUG 2522 --- [o-auto-1-exec-7] c.m.c.s.i.ReportingStructureServiceImpl  : Getting reporting structure for employee [123]
+2022-05-31 23:55:07.006 DEBUG 2522 --- [o-auto-1-exec-7] c.m.c.service.impl.EmployeeServiceImpl   : Reading employee with id [123]
+2022-05-31 23:55:07.011 ERROR 2522 --- [o-auto-1-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.mindex.challenge.exceptions.EmployeeException: Invalid employeeId: 123] with root cause
+
+com.mindex.challenge.exceptions.EmployeeException: Invalid employeeId: 123
+	at com.mindex.challenge.service.impl.EmployeeServiceImpl.read(EmployeeServiceImpl.java:38) ~[main/:na]
+	at com.mindex.challenge.service.impl.ReportingStructureServiceImpl.get(ReportingStructureServiceImpl.java:26) ~[main/:na]
+	at com.mindex.challenge.controller.ReportingStructureController.getReportingStructure(ReportingStructureController.java:29) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2022-05-31 23:55:07.029 DEBUG 2522 --- [o-auto-1-exec-8] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@5bbd99c5]
+2022-05-31 23:55:07.029 DEBUG 2522 --- [o-auto-1-exec-8] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@5bbd99c5]
+2022-05-31 23:55:07.033 DEBUG 2522 --- [o-auto-1-exec-9] c.m.c.controller.EmployeeController      : Received employee create request for id [34fcd56b-a810-4a52-ba9b-8971aa393787]
+2022-05-31 23:55:07.034 DEBUG 2522 --- [o-auto-1-exec-9] c.m.c.service.impl.EmployeeServiceImpl   : Reading employee with id [34fcd56b-a810-4a52-ba9b-8971aa393787]
+2022-05-31 23:55:07.040 DEBUG 2522 --- [-auto-1-exec-10] c.m.c.controller.EmployeeController      : Received employee create request for id [34fcd56b-a810-4a52-ba9b-8971aa393787] and employee [com.mindex.challenge.data.Employee@a04e0e1]
+2022-05-31 23:55:07.041 DEBUG 2522 --- [-auto-1-exec-10] c.m.c.service.impl.EmployeeServiceImpl   : Updating employee [com.mindex.challenge.data.Employee@a04e0e1]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.0</a> at May 31, 2022, 11:55:08 PM</p>
+</div>
+</div>
+</body>
+</html>

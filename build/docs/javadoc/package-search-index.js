@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.mindex.challenge"},{"l":"com.mindex.challenge.config"},{"l":"com.mindex.challenge.controller"},{"l":"com.mindex.challenge.dao"},{"l":"com.mindex.challenge.data"},{"l":"com.mindex.challenge.service"},{"l":"com.mindex.challenge.service.impl"}];updateSearchResults();

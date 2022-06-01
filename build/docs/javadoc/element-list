@@ -1,0 +1,7 @@
+com.mindex.challenge
+com.mindex.challenge.config
+com.mindex.challenge.controller
+com.mindex.challenge.dao
+com.mindex.challenge.data
+com.mindex.challenge.service
+com.mindex.challenge.service.impl
