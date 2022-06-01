@@ -32,11 +32,14 @@ public class ReportingStructureServiceImpl implements ReportingStructureService 
 
     private void visitEmployeesInHierarchy(Employee employee, List<String> visitedEmployeeIds) throws EmployeeException {
         if(employee.getDirectReports() != null) {
-            for (Employee report : employee.getDirectReports()) {
+//            for (Employee report : employee.getDirectReports()) {
+            for(int i = 0; i < employee.getDirectReports().size(); i++) {
+                Employee report = employee.getDirectReports().get(i);
                 String reportId = report.getEmployeeId();
                 if(!visitedEmployeeIds.contains(reportId)) {
                     visitedEmployeeIds.add(reportId);
                     Employee fullReport = employeeService.read(report.getEmployeeId());
+                    employee.getDirectReports().set(i, fullReport);
                     if (fullReport.getDirectReports() != null && fullReport.getDirectReports().size() > 0) {
                         visitEmployeesInHierarchy(fullReport, visitedEmployeeIds);
                     }

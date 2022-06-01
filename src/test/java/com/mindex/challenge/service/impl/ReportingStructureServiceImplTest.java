@@ -13,10 +13,12 @@ import org.mockito.Spy;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
+import java.util.List;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -42,11 +44,17 @@ public class ReportingStructureServiceImplTest {
 
     private void createHierarchySimple() throws EmployeeException {
         e1.setEmployeeId("1");
+        e1.setFirstName("One");
         e1.setDirectReports(Arrays.asList(e2, e3));
         e2.setEmployeeId("2");
+        e2.setFirstName("Two");
         e3.setEmployeeId("3");
-        e3.setDirectReports(Collections.singletonList(e4));
+        e3.setFirstName("Three");
+        List<Employee> e3Reports = new ArrayList<>();
+        e3Reports.add(e4);
+        e3.setDirectReports(e3Reports);
         e4.setEmployeeId("4");
+        e4.setFirstName("Four");
         when(employeeService.read(e1.getEmployeeId())).thenReturn(e1);
         when(employeeService.read(e2.getEmployeeId())).thenReturn(e2);
         when(employeeService.read(e3.getEmployeeId())).thenReturn(e3);
@@ -95,6 +103,9 @@ public class ReportingStructureServiceImplTest {
         ReportingStructure reportingStructure = reportingStructureService.get(e3.getEmployeeId());
         assertEquals(Integer.valueOf(1), reportingStructure.getNumberOfReports());
         assertEquals(e3, reportingStructure.getEmployee());
+        assertNotNull(reportingStructure.getEmployee().getDirectReports());
+        assertEquals(1, reportingStructure.getEmployee().getDirectReports().size());
+        assertNotNull(reportingStructure.getEmployee().getDirectReports().get(0).getFirstName());
         verify(employeeService, times(2)).read(Mockito.any(String.class));
     }
 
@@ -105,6 +116,9 @@ public class ReportingStructureServiceImplTest {
         assertEquals(Integer.valueOf(3), reportingStructure.getNumberOfReports());
         assertEquals(e1, reportingStructure.getEmployee());
         verify(employeeService, times(4)).read(Mockito.any(String.class));
+        assertNotNull(reportingStructure.getEmployee().getDirectReports());
+        assertEquals(2, reportingStructure.getEmployee().getDirectReports().size());
+        assertNotNull(reportingStructure.getEmployee().getDirectReports().get(0).getFirstName());
     }
 
     @Test
