@@ -4,59 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42ce946d-aeb4-4563-bcd7-233aa3dff5b7" name="Changes" comment="Task 1 and 2">
+    <list default="true" id="42ce946d-aeb4-4563-bcd7-233aa3dff5b7" name="Changes" comment="Updated /reportingStructure endpoint to return full employee objects rather than just employeeId">
       <change beforePath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mindex/challenge/service/impl/CompensationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mindex/challenge/service/impl/CompensationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mindex/challenge/service/impl/ReportingStructureServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mindex/challenge/service/impl/ReportingStructureServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/controller/CompensationControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/controller/CompensationControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/integration/CompensationIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/integration/CompensationIntegrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/integration/ReportingStructureIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/integration/ReportingStructureIntegrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/service/impl/CompensationServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/service/impl/CompensationServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/service/impl/EmployeeServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/service/impl/EmployeeServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/service/impl/EmployeeServiceImplTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/service/impl/EmployeeServiceImplTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/service/impl/ReportingStructureServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/mindex/challenge/service/impl/ReportingStructureServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindex.challenge.ChallengeApplicationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindex.challenge.DataBootstrapTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindex.challenge.controller.CompensationControllerTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindex.challenge.controller.ReportingStructureControllerTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindex.challenge.integration.CompensationIntegrationTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindex.challenge.integration.ReportingStructureIntegrationTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindex.challenge.service.impl.CompensationServiceImplTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindex.challenge.service.impl.EmployeeServiceImplTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindex.challenge.service.impl.EmployeeServiceImplTest2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindex.challenge.service.impl.ReportingStructureServiceImplTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindex.challenge.service.impl.ReportingStructureServiceImplTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.mindex.challenge.controller.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.mindex.challenge.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.mindex.challenge.integration.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.mindex.challenge.service.impl.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.mindex.challenge.service.impl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindex.challenge.ChallengeApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindex.challenge.DataBootstrapTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindex.challenge.controller.CompensationControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindex.challenge.controller.ReportingStructureControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindex.challenge.integration.CompensationIntegrationTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindex.challenge.integration.ReportingStructureIntegrationTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindex.challenge.service.impl.CompensationServiceImplTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindex.challenge.service.impl.EmployeeServiceImplTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindex.challenge.service.impl.EmployeeServiceImplTest2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindex.challenge.service.impl.ReportingStructureServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindex.challenge.service.impl.ReportingStructureServiceImplTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mindex-java-code-challenge.iws" beforeDir="false" afterPath="$PROJECT_DIR$/mindex-java-code-challenge.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/ReportingStructureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/ReportingStructureServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/ReportingStructureServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/ReportingStructureServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +190,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ReportingStructureServiceImplTest.testGetReportingStructure_twoLevelsOfReports">
+  <component name="RunManager" selected="Gradle.Tests in 'mindex-java-code-challenge'">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -393,9 +355,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'mindex-java-code-challenge'" />
         <item itemvalue="Gradle.ReportingStructureServiceImplTest.testGetReportingStructure_twoLevelsOfReports" />
         <item itemvalue="Gradle.ReportingStructureServiceImplTest.testGetReportingStructure_oneLevelOfReports" />
-        <item itemvalue="Gradle.Tests in 'mindex-java-code-challenge'" />
         <item itemvalue="Gradle.ReportingStructureIntegrationTest.testBadCreateRequest_nullEmployee" />
         <item itemvalue="Gradle.ReportingStructureIntegrationTest" />
       </list>
@@ -423,7 +385,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653680471871</updated>
-      <workItem from="1653680473604" duration="54879000" />
+      <workItem from="1653680473604" duration="55178000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1 and 2">
       <created>1654056566883</created>
@@ -432,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654056566884</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated /reportingStructure endpoint to return full employee objects rather than just employeeId">
+      <created>1654060453460</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654060453460</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,18 +421,8 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <MESSAGE value="Task 1 and 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1 and 2" />
+    <MESSAGE value="Updated /reportingStructure endpoint to return full employee objects rather than just employeeId" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated /reportingStructure endpoint to return full employee objects rather than just employeeId" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/ReportingStructureServiceImplTest.java</url>
-          <line>120</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
